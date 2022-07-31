@@ -1,0 +1,85 @@
+#bloc_page
+{
+
+	width: 80%;
+	min-width: 500px;
+	padding: auto;
+	align-content: center;
+	align-items: center;
+}
+
+nav ul 
+{
+	display: flex;
+	list-style-type: none;
+}
+
+#contact_us
+{
+	width: 120px;
+	height: 30px;
+	border: 1px black solid;
+	border-radius: 20px;
+	background-color: black;
+	color: white;
+	padding-left: 20px;
+	padding-bottom: 15px;
+	margin-bottom: 5px;
+
+}
+
+#conteneur
+{
+	background-color: black;
+	display: flex;
+	flex-wrap: wrap;
+	width: 1050px;
+	height: 600px;
+}
+
+
+.element_1
+{
+	border: 1px black solid;
+	background-color: white;
+	border-radius: 20px;
+	width: 500px;
+	height: 300px;
+}
+
+.element_2
+{
+	border: 1px black solid;
+	background-color: white;
+	border-radius: 20px;
+	width: 50%;
+	height: 300px;
+	padding-right: 100px;
+}
+
+.element_3
+{
+	border: 1px black solid;
+	background-color: white;
+	border-radius: 20px;
+	width: 300px;
+	height: 300px;
+}
+
+.element_4
+{
+	border: 1px black solid;
+	background-color: white;
+	border-radius: 20px;
+	width: 300px;
+	height: 300px;
+}
+
+.element_5
+{
+	border: 1px black solid;
+	background-color: white;
+	border-radius: 20px;
+	width: 300px;
+	height: 300px;
+}
