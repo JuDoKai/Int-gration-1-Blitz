@@ -1,0 +1,44 @@
+.boxes {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 100%;
+    min-width: 400px;
+    width: 100%;
+    background-color: black;
+
+
+}
+
+.box1 {
+    background-color: #f3f3f5;
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 100%;
+    min-width: 100px;
+    height: 50%;
+    min-height: 400px;
+    transition: transform 1s;
+}
+
+
+
+.box2 {
+    background-color: #f3f3f5;
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 50%;
+    min-width: 100px;
+    height: 50%;
+    min-height: 400px;
+    transition: transform 1s;
+}
+
+.box1:hover
+{
+    background-color: #e8e7ee;
+}
+
+.box2:hover
+{
+    background-color: #e8e7ee;
+}
