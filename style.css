@@ -1,3 +1,51 @@
+.bloc_page {
+
+    padding: 0 20px 0 20px;
+}
+
+header {
+
+    font-family: Microsoft YaHei;
+    font-size: 12px;
+}
+
+.titre{ 
+    font-size: 26px;
+    font-style: bold;
+    position: fixed;
+    top: 5px;
+
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+nav ul li {
+    
+    list-style: none;
+    margin-left: 100px;
+    margin-bottom: 5px;
+}
+
+.contact {
+
+    border: 1px solid black;
+    border-radius: 16px;
+    padding: 5px 10px 5px 10px;
+    margin-left: auto;
+    align-self: flex-end;
+}
+
+.contact:hover
+{
+    background-color: black;
+    color: white;
+}
+
+
 .boxes {
     display: flex;
     flex-wrap: nowrap;
