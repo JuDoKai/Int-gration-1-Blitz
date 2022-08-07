@@ -10,6 +10,7 @@ header {
 }
 
 .titre{ 
+
     font-size: 26px;
     font-style: bold;
     position: fixed;
@@ -29,6 +30,77 @@ nav ul li {
     margin-left: 100px;
     margin-bottom: 5px;
 }
+
+.content1 {
+
+    height: 200px;
+
+    margin-left: 30px;
+    margin-top: 30px;
+
+
+
+}
+
+.conteneur1 {
+    display: flex;
+}
+
+.look {
+
+    font-size: 4.5vmax;
+}
+
+.touch {
+
+    width: 130px;
+    height: 30px;
+
+    font-size: 16px;
+
+
+    border-radius: 100px;
+
+    margin-top: 20px;
+
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+
+
+    background: rgb(252,222,199);
+    background: linear-gradient(0deg, rgba(252,222,199,1) 0%, rgba(251,152,164,1) 90%);
+
+}
+
+
+.iconMessage {
+
+    width: 10px;
+    height: 20px;
+
+    border: 1px solid black;
+    border-radius: 100px;
+    padding: 10px 20px 20px 20px;
+    margin: 20px 20px 0px 10px;
+
+}
+
+.icon {
+
+    width: 18px;
+    height: 14px;
+
+    border: 1px solid black;
+    border-radius: 4px;
+
+    margin: 6px 0px 5px -5px;
+
+    background-color: black;
+
+
+}
+
 
 .contact {
 
@@ -53,6 +125,9 @@ nav ul li {
     min-width: 400px;
     width: 100%;
     background-color: black;
+
+    font-family: Microsoft YaHei;
+
 
 
 }
